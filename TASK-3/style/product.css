@@ -9,6 +9,10 @@
     font-weight: 400;
 }
 
+.page-item:hover{
+    background-color: var(--neutral-100);
+}
+
 .page-item .active{
     background-color: var(--primary-300);
     font-weight: 500;
