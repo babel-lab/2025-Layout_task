@@ -6,10 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <title>index</title>
+    <script type="module" crossorigin src="/2025-Layout_task/TASK-5/assets/main-BEUtK9X4.js"></script>
+    <link rel="stylesheet" crossorigin href="/2025-Layout_task/TASK-5/assets/main-9-1veOFk.css">
   </head>
   <body>
-    <%- include('./layout/header'); -%>
-    <main class="bg-gray">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week5/logo.svg" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">服務方案</a>
+        </li>
+       <li class="nav-item me-3">
+          <a class="nav-link" href="#">關於職旅</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">聯絡我們</a>
+        </li>        
+      </ul>      
+    </div>
+    <a href="user.html"><img class="user-img rounded-circle border me-2" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week5/avatar.png" alt="user-img">Mokumaru</a>
+  </div>
+</nav>    <main class="bg-gray">
         <div class="container section-padding">
           <div class="row justify-content-center">
             <div class="col-10">
@@ -580,9 +604,43 @@ keyboard_arrow_right
         </div>
     </main>
    
-    <%- include('./layout/footer'); -%>
+    <footer class="footer">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">    
+            <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">服務方案</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">關於職旅</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">聯絡我們</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">隱私權政策</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">用戶條款</a>
+                </li>
+            </ul>
+            <span class="navbar-text" style="color:#667F99;">
+                Copyright © 2025 職旅 workway. All rights reserved.
+            </span>
+            </div>
+        </div>
+        </nav>
+        </div>
+</footer>
 
-    <script type="module" src="../main.js"></script>
+
+
+
+
+
+
   </body>
 </html>
 
