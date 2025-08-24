@@ -1,0 +1,30 @@
+.user-img{
+    width: 44px;
+    height: 44px;
+}
+
+.navbar-brand{
+    img{
+        width: 90px;
+        height: 35px;
+        @media (min-width: 992px) {
+                width: 122px;
+                height: 48px;
+        }
+    }
+
+}
+
+/* <1024px：Logo 左，User 靠近漢堡選單 */
+//@media (max-width: 1023.98px) {
+  .navbar .navbar-brand { order: 1; }
+  .navbar .user-link    { order: 2; margin-left: auto; } /* 緊貼在漢堡按鈕前 */
+  .navbar .navbar-toggler { order: 3; margin-left: 0; }
+//}
+
+/* ≥1024px：Logo 左，選單中，User 右 */
+@media (min-width: 1200px) {
+  .navbar .navbar-brand { order: 1; }
+  .navbar .navbar-collapse { order: 2; justify-content: center; }
+  .navbar .user-link { order: 3; margin-left: auto; }
+}
