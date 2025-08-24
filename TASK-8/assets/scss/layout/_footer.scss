@@ -1,0 +1,11 @@
+.footer{
+  background: #000000;
+  padding: 80px 0;
+  @media(min-width: 992px){
+    padding: 100px 0;
+  }
+  ul{
+    list-style-type: none;
+    
+  }
+}
